@@ -1,0 +1,52 @@
+Disclaimer:
+===========
+
+None :)
+
+Intro:
+======
+
+This code is for automated analysis of files you may find around the internet. Primarily it was coded for the investigation of firmwares of devices. But you can use it generally for pattern recognition.
+
+Currently it supports by 80plugins, this means by 80 different patterns that may match on a current file. There are still some interesting, exotic or important plugins missing. However i hope it may help you out on some point. If you got interesting patterns please let me know, and i'am happy to add them.
+
+How to use the tool:
+====================
+
+List all plugins:
+
+%python fudge.py -l
+
+Searching for just one patterntype:
+
+%python fudge.py -f /bin/ls -o test/ -p ELF
+
+Searching for a class of patterns:
+
+%python fudge.py -f /bin/ls -o test/ -P FS
+
+Searching through all patterns and extract findings:
+
+%python fudge.py -f /bin/ls -o test/ -x
+
+Searching through all patterns, extract findings and generate report with the tool file:
+
+%python fudge.py -f /bin/ls -o test/ -x -r
+
+Bugs:
+=====
+
+- slow on big files
+- suffix recognition isn't working
+
+Todo:
+=====
+
+- verbose mode not implemented
+- add logfile function
+- complete rewrite
+
+Outro:
+======
+
+That's it guys'n'girls. I hope you can use it for some good. For any further questions on the code you can contact me via email

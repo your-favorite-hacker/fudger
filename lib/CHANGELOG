@@ -1,0 +1,21 @@
+Tue Mar 10 16:03:24 CET 2009
+============================
+
+- added plugin support (choose between categories)
+- added report mode with file
+
+
+Tue Mar 10 00:47:18 CET 2009
+============================
+
+- added jffs/jffs2 support
+- added pluginlist
+- added little corrections
+- added version output
+
+long long before(last year august)
+==================================
+
+- initial PoC
+- addition of a lot of patterns
+- extract mode

@@ -1,0 +1,4 @@
+"""
+Fudge init library
+"""
+
